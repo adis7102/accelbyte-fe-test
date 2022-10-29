@@ -1,0 +1,20 @@
+.error-alert {
+  padding: 25px;
+  border-radius: 5px;
+  background-color: #f8d7da;
+  max-width: 450px;
+  position: fixed;
+  z-index: 2;
+  bottom: 20px;
+  right: 20px;
+
+  &-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  &-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../styles/colors';
+
+.button { 
+  background-color: $color-alice-blue;
+  border-radius: 5px;
+  cursor: pointer;
+
+  p {
+    color: white;
+    margin: 0;
+  }
+
+  &:hover {
+    background-color: white;
+    border: 1px solid black;
+
+    p {
+      color: black;
+    }
+  }
+}

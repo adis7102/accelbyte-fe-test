@@ -1,0 +1,35 @@
+@import '../../styles/colors';
+
+.card-article {
+  border: 1px solid $color-N500;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 15px;
+
+  &-id {
+    font-size: 14px;
+    color: $color-N500;
+  }
+
+  &-title {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &-sub {
+    margin-top: 10px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+
+    .score-badge {
+      margin-left: 10px;
+      padding: 5px;
+      background-color: $color-alice-blue;
+      color: white;
+      border-radius: 5px;
+    }
+  }
+}
